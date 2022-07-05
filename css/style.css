@@ -30,6 +30,10 @@ a{
     margin-bottom: 30px;
 }
 
+.row .sideList .sideItems img{
+    filter: invert(53%) sepia(92%) saturate(2573%) hue-rotate(159deg) brightness(92%) contrast(101%);
+}
+
 .navigationBar .navList{
     justify-content: flex-end;
 }
@@ -124,6 +128,14 @@ input{
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
     border: none;
+}
+
+.input-group-text img{
+    filter: invert(53%) sepia(92%) saturate(2573%) hue-rotate(159deg) brightness(92%) contrast(101%);
+}
+
+svg{
+    fill: #02C5CCff;
 }
 
 /*light-blue: #99C5CBff; icons
