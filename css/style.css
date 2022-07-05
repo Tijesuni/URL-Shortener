@@ -34,14 +34,20 @@ a{
     filter: invert(53%) sepia(92%) saturate(2573%) hue-rotate(159deg) brightness(92%) contrast(101%);
 }
 
+.rightNav{
+    padding-bottom: 90px;
+    padding-top: 50px;
+}
+
 .navigationBar .navList{
     justify-content: flex-end;
+    text-align: center;
 }
 
 .navigationBar .navList .navItems{
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 50px;
+    margin-top: 40px;
     margin-bottom: 10px;
 }
 
@@ -86,6 +92,12 @@ a{
     padding-left: 100px;
 }
 
+.text h3{
+    color: #005065ff;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
 .input-group button{
     margin-left: 20px !important;
     width: 18%;
@@ -104,6 +116,7 @@ a{
 
 .input-group .small{
     width: 50%;
+    margin-top: 50px;
 }
 
 .input-group .small::placeholder{
@@ -111,6 +124,10 @@ a{
     font-size: 30px;
     font-weight: 200;
     font-family: 'Times New Roman', Times, serif;
+}
+
+.input-group .btn-small{
+    margin-top: 40px;
 }
 
 input{
